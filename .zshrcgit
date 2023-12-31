@@ -1,0 +1,35 @@
+#status
+alias ggs='git status'
+#show
+alias ggsh^='git show HEAD^'
+alias ggsh='git show '
+alias ggshd^='git show --diff HEAD^'
+alias ggshd='git show --diff '
+# merge
+alias ggm='git merge '
+#pull
+alias ggpl*='git pull origin main'
+alias ggpl='git pull origin '
+#push
+alias ggps*='git push origin main'
+alias ggps='git push origin '
+# restore
+alias ggrt='git restore'
+alias ggrt*='git restore .'
+alias ggrts='git restore --staged '
+alias ggrts*='git restore --staged .'
+# reset soft
+alias ggrs^='git reset --soft HEAD^'
+alias ggrs='git reset --soft '
+# reset hard
+alias ggrh^='git reset --hard HEAD^'
+alias ggrh='git reset --hard ' #gg_r_h <COMMIT_ID>
+# commit
+alias ggcm='git commit -m ' # gg_c_m "initial commit"
+alias ggca='git commit --amend'
+# rebase
+alias ggrbi^="git rebase -i HEAD^" #gg_r_i_
+alias ggrbi='git rebase -i ' #gg_r_i <COMMIT_id>
+alias ggrbc='git rebase --continue'
+alias ggrba='git rebase --abort'
+alias ggrbs='git rebase --skip'
